@@ -18,6 +18,17 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+html {
+overflow: scroll;
+overflow-x: hidden;
+}
+::-webkit-scrollbar {
+width: 3px;
+background: #1a202c;
+}
+::-webkit-scrollbar-thumb {
+background:   #1a202c;
+}
 
 .App-link {
   color: #61dafb;
